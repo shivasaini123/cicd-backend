@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.json("Welcome to the server");
+  res.json("Welcome to the server and home");
 });
 
 app.get('/api/status', (req, res) => {
